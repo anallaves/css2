@@ -1,0 +1,35 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    position: relative;
+    width: 600px;
+    overflow: hidden; /*hidden= rolar para o lado*/ /*overflow: scroll= permite rolar o texto*/
+}
+.carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide img {
+    width: 600px;
+    height: 100%;
+    transition: opacity 0.5s;
+}
+.controle {
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    z-index: 10; /*garantir que a seta fique em frente a imagem*/
+    cursor: pointer;
+}
+#anterior {
+    left: 10px;
+}
+#proximo {
+    right: 10px;
+}

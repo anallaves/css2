@@ -1,0 +1,35 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.box {
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+}
+.item1 {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    /*position: static;*/ /*Position padrão, posição que quiser*/
+    /*position: relative; /*relativo ao que está guardando ele (caixinha)*/
+    /*top, left, right, bottom*/
+    /*top: 20px;
+    left: 30px;*/
+    /*position: absolute; /*podemos definir a posição absoluta*/ /*se não tiver um absolute com relativo, ele não se move*/
+    /*bottom: 0;
+    left: 50px;*/
+    position: fixed; /*acompanha a rolagem do site e fica fixo na tela*/
+    z-index: -1; /*muda a profundidade*/
+
+}
+
+body {
+    height: 5000000px;
+}
+.item2 {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}

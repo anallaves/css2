@@ -1,0 +1,28 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+div {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin: 20px;
+}
+.box1 {
+    box-shadow: 5px 5px black; /*sombreamento, o primeiro valor é a direita e o segundo é para baixo*/ /*sombra sólida*/
+}
+.box2 {
+    box-shadow: -5px -5px black; /*esquerda, direita, cima, baixo*/ /*Usando valores negativos o sombreamento irá para o outro lado*/
+}
+.box3 {
+    box-shadow: 5px 5px 5px black;
+    /* O terceiro valor adiciona o blur, ou seja o desfoque da sombra*/ /*quanto maior o número, mais desfocado fica*/
+}
+.box4 {
+    box-shadow: 25px 25px 5px black; /*ao colocar inset, cria uma sombra dentro do elemento*/
+}
+.box5 {
+    box-shadow: 5px 5px 5px 5px black; /* O quarto valor representa a expansão da sombra*/
+}
+/*css scan- site com todos os tipos de sombreamento*/

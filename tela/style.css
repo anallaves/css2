@@ -1,0 +1,38 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%; 
+    height: 100%;
+    overflow: hidden;
+}
+/*Tela de carregamento*/
+#carregamento {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center; /*carregando no meio*/
+    align-items: center; /*carregando no meio*/
+    font-size: 50px;
+}
+
+@keyframes troca {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0; /*transparencia*/ /*quando tiver a animação troca oq esta visível para invisivel*/
+    }
+}
+
+#carregamento.inicio {
+    animation: troca 2s ease forwards; /*nome da animação= troca*/ /*1s= tempo de duração*/ /*forwards= não fica pra sempre na tela de carregamento*/
+}

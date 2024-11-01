@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Nome:</label>
+        <input type="text" placeholder="Nome"> <!--Para entrada de texto-->
+        <input type="password"> <!--Para senhas-->
+        <input type="email"> <!--Para emails-->
+        <input type="date"> <!--Para datas-->
+
+
+        <input type="radio" name:"a" value="Oi">
+        <input type="radio" name:"a" value="Olá"> <!--name, significa que pertencem ao mesmo grupo, logo não da pra selecionar mais de um-->
+        <!--Para adicionar uma caixa de seleção onde pode selecionar apenas uma-->
+
+
+        <input type="checkbox" name="b"> AA
+        <input type="checkbox" name="b"> BB 
+        <!--Para adicionar uma caixa de seleção onde pode selecionar mais de uma-->
+
+
+        <select name="Paises" id="">
+            <option value="Brasil">Brasil</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Jamaica">Jamaica</option>
+        </select>
+        <!--O select cria a caixa de seleção-->
+
+
+        <input type="number" min="1" max="100" step="1">
+        <!--Para colocar um número-->
+
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <input type="text" placeholder="Nome" required> <!--required deixa um campo obrigátorio-->
+            <input type="email" placeholder="email">
+        </fieldset>
+        <!--Cria uma borda envolta dos campos do formulário-->
+
+        <textarea name="" id=""></textarea> <!--Para uma grande área de texto-->
+
+        <input type="color" name="" id=""> <!--Para selecionar uma cor-->
+
+        <input type="file" name="" id=""> <!--Selecionar um arquivo-->
+
+        <input type="time"> <!--Deixa escolher um horário-->
+
+        <input type="time"> <!--Deixa escolher um horário-->
+        
+        <input type="month"> <!--Deixa escolher o mês e ano-->
+
+        <button type="submit">Enviar</button> <!--botão para enviar os dados-->
+    </form>
+</body>
+</html>

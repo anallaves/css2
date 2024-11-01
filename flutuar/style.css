@@ -1,0 +1,16 @@
+.titulo {
+    animation: flutuar 2s ease-in-out infinite; /*infinite = animação infinita*/
+
+}
+
+@keyframes flutuar { /*flutuar= nome da animação*/
+    0% {
+        padding-top: 0px;
+    }
+    50% {
+        padding-top: 50px;
+    }
+    100% {
+        padding-top: 0px;
+    }
+}
